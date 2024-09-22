@@ -1,0 +1,80 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo preto */
+    color: #ffffff; /* Texto branco */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contêiner principal */
+.container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagem de perfil */
+.profile-image-container {
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra na imagem */
+}
+
+/* Estilo do título e subtítulo */
+.title {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #cccccc;
+}
+
+/* Estilos dos botões */
+.button {
+    display: block;
+    padding: 12px 25px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    background-color: #e86b4f;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+.button:hover {
+    background-color: #e86b4f;
+}
+
+/* Botão secundário */
+.button.secondary {
+    background-color: #e86b4f;
+}
+
+.button.secondary:hover {
+    background-color: #e86b4f;
+}
+
+
+
